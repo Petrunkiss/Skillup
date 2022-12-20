@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* все блоки будут иметь заданную ширину 
+    за счёт отодвигания контента внутрь */
+    box-sizing: border-box; 
+}
+/* div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.relative{
+    position: relative;
+    left: 100px;
+}
+.absolute{
+    position: absolute;
+    left: 250px;
+} */
+.fixed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    left: 100px;
+    top: 100px;
+}

@@ -1,0 +1,4 @@
+assignment - присвоение
+append - добавлять
+type hinting - приведение типов
+casting - явное приведение типов

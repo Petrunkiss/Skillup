@@ -1,0 +1,13 @@
+p{
+    color: rgba(165, 129, 213, 0.567);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.second-paragraph{
+    color: black;
+}
+
+#third-paragraph{
+    color: yellowgreen;
+}
