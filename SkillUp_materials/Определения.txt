@@ -1,4 +1,0 @@
-HTML - Hyper Text MarkUp Language - язык разметки страницы
-Tag - наименьший элемент страницы
-
-
