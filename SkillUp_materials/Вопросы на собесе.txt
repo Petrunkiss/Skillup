@@ -1,0 +1,13 @@
+1. Приоритет селекторов 1 - tag / 10 - class / 100 - id / 1000 - inline styles / important
+
+2. Семантичная структура web page
+	header - шапка сайта
+	nav - меню сайта
+	main - основная информация
+	section - ключевые разделы main
+	articles - параграфы, разделы
+	aside - боковая часть сайта
+	hgroup h1 h2 - почитать
+
+http://webdiz.com.ua/semanticheskie-yelementy-v-html5/
+
