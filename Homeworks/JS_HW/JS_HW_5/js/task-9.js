@@ -1,8 +1,12 @@
 import users from "./users.js"
 
 const getNamesSortedByFriendsCount = users => {
-    const resArr = users.sort(( a, b ) => a.friends.length - b.friends.length)
-    return resArr
+    const sortedByFriendsArr = users
+    
+    .sort(( a, b ) => a.friends.length - b.friends.length)
+    .map(({name})=>name)
+
+    return sortedByFriendsArr
 }
 
 console.log(getNamesSortedByFriendsCount(users))

@@ -2,11 +2,18 @@ import users from "./users.js"
 
 
 const getUserNames = users => {
-    const resArr = []
-    users.forEach(({name}) => {
-        resArr.push(name)
-    })
-    return resArr
+// -------------------------------------------------------------------- forEach()
+    // const resArr = []
+    // users.forEach(({name}) => {
+    //     resArr.push(name)
+    // })
+    // return resArr
+
+// -------------------------------------------------------------------- map()
+    const userNames = users.map(({ name }) => name)
+    return userNames
+
+
 }
 
 console.log(getUserNames(users))
