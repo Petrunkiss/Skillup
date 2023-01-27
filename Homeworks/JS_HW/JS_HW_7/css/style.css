@@ -57,6 +57,19 @@ body{
     background-color: #2c71b8;
     color: #fff;
 }
+.item-products:hover::after{
+    content: "";
+    position: absolute;
+    background: url('../img/Menu_arrow_white_icon.svg') no-repeat center;
+    width: 40px;
+    height: 15px;
+    scale: 130%;
+    margin-right: -105px;
+}
+.item-products::after{
+
+    /* z-index: -1; */
+}
 .search-input{
     width: 200px;
     height: 40px;
